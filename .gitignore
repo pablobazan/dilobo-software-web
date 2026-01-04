@@ -1,0 +1,4 @@
+.DS_Store
+node_modules
+.env
+.windsurf_deployment.yaml
