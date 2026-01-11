@@ -24,9 +24,6 @@ export default function Hero() {
             <a href="#projects" className="px-8 py-3 rounded-lg bg-gradient-to-r from-cyan-500 to-indigo-600 text-white font-semibold hover:opacity-90 transition-opacity">
               Ver Proyectos
             </a>
-            <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="px-8 py-3 rounded-lg bg-slate-800 text-white font-semibold hover:bg-slate-700 transition-colors border border-slate-700">
-              GitHub
-            </a>
           </div>
         </motion.div>
 

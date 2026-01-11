@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Universo Lovecraft",
     description: "Explora los horrores cósmicos y la mitología de H.P. Lovecraft. Una guía completa para los amantes del terror cósmico.",
-    tags: ["Ionic", "Android", "Play Store"],
+    tags: ["Flutter", "Android", "Play Store"],
     link: "https://play.google.com/store/apps/details?id=lovecraft.ionic&hl=es_AR",
     status: "Disponible",
     color: "from-purple-500 to-indigo-600",
