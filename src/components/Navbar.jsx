@@ -11,9 +11,7 @@ export default function Navbar() {
             animate={{ opacity: 1, x: 0 }}
             className="flex items-center gap-2"
           >
-            <div className="w-8 h-8 bg-gradient-to-br from-cyan-400 to-indigo-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">D</span>
-            </div>
+            <img src="/logo.png" alt="Dilobo Software Logo" className="w-10 h-10 object-contain" />
             <span className="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-white to-slate-400">
               Dilobo Software
             </span>
