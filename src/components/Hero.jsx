@@ -9,7 +9,6 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5 }}
         >
-          <img src="/logo.png" alt="Dilobo Software Logo" className="w-32 h-32 mx-auto mb-8 object-contain drop-shadow-2xl" />
           <span className="inline-flex items-center px-3 py-1 rounded-full text-sm font-medium bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 mb-8">
             Desarrollo de Software Indie
           </span>
