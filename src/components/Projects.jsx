@@ -4,13 +4,24 @@ import { Link } from 'react-router-dom';
 
 const projects = [
   {
+    title: "ScreenPets",
+    description: "Una mascota virtual interactiva que camina por tu pantalla mientras usas otras aplicaciones. ¡Tu nuevo compañero digital!",
+    tags: ["Flutter", "Flame", "Android"],
+    link: "#", // Reemplazar cuando esté publicada en Play Store
+    status: "En Desarrollo", // Cambiar a "Disponible" cuando aplique
+    color: "from-pink-500 to-rose-600",
+    hasPrivacy: true,
+    privacyLink: "/privacy/screenpets"
+  },
+  {
     title: "Universo Lovecraft",
     description: "Explora los horrores cósmicos y la mitología de H.P. Lovecraft. Una guía completa para los amantes del terror cósmico.",
     tags: ["Flutter", "Android", "Play Store"],
     link: "https://play.google.com/store/apps/details?id=lovecraft.ionic&hl=es_AR",
     status: "Disponible",
     color: "from-purple-500 to-indigo-600",
-    hasPrivacy: true
+    hasPrivacy: true,
+    privacyLink: "/privacy/universo-lovecraft"
   },
   {
     title: "Trucazo",
@@ -74,7 +85,7 @@ export default function Projects() {
                 <div className="flex items-center gap-4">
                   {project.status === 'Disponible' && (
                     <a 
-                      href={project.link}
+                      hre{{poject.prrojecLilk}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm font-medium text-white hover:text-cyan-400 transition-colors"
