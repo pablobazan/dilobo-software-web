@@ -85,7 +85,7 @@ export default function Projects() {
                 <div className="flex items-center gap-4">
                   {project.status === 'Disponible' && (
                     <a 
-                      hre{{poject.prrojecLilk}
+                      href={project.link}
                       target="_blank"
                       rel="noopener noreferrer"
                       className="flex items-center gap-2 text-sm font-medium text-white hover:text-cyan-400 transition-colors"
@@ -96,7 +96,7 @@ export default function Projects() {
                   )}
                   {project.hasPrivacy && (
                     <Link 
-                      to="/privacy/universo-lovecraft"
+                      to={project.privacyLink}
                       className="flex items-center gap-2 text-sm font-medium text-slate-400 hover:text-cyan-400 transition-colors"
                     >
                       <Shield size={16} />
